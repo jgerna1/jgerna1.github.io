@@ -7,7 +7,8 @@ body {
   max-width: 760px;
   padding: 24px;
   margin: 0 auto;
-  color: pink;
+  color: white;
+  background: gray;
 }
 h1 {
   font-family: inherit;
@@ -89,4 +90,10 @@ a {
 }
 .gridlover-grid body {
   box-shadow: 1px 0px 0px hsla(200, 100%, 50%, .3), -1px 0px 0px hsla(200, 100%, 50%, .3);
+}
+
+.sites-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
 }
